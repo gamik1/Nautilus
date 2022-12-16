@@ -1,0 +1,21 @@
+/* css for our services */
+.box {
+    flex: 1;
+    background: var(--color-hotchocolate);
+    color: var(--color-cream-lt);
+    border-radius: 10px;
+    margin: 20px 10px;
+    box-shadow: 0 5px 10px #1619253b;
+    padding: 5px 30px;
+    transition: 0.3s ease-out;
+}
+.box:hover{
+    transform: scale(105%);
+}
+.box h5 {
+    margin: 15px 0;
+}
+.box p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}

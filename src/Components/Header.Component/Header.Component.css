@@ -1,0 +1,16 @@
+/* css for Main Content: Heading and Image  */
+.header {
+    color: var(--color-coffee);
+    line-height: 1.2;
+    padding: 30px 0 0 0;
+}
+.header img {
+    max-width: 280px;
+    padding-bottom: 50px;
+}
+
+.header .p {
+    margin-top: 12px;
+    line-height: 1.2;
+    margin-bottom: 50px;
+}

@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.grid-item {
+  background-color: var(--color-hotchocolate);
+  color: var(--color-cream-lt);
+  padding: 20px;
+  border-radius: 10px;
+  transition: 0.3s ease-out;
+  line-height: 1.6;
+}.grid-item:hover{
+  transform: scale(105%);
+}
+.grid-item img{
+  max-width: 200px;
+ 
+}
+.grid-item h5{
+  padding-bottom: 10px;
+  font-weight: bold;
+}

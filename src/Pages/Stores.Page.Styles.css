@@ -1,0 +1,22 @@
+/* css for stores page */
+.stores {
+    text-align: center;
+}
+.store-p {
+    padding: 20px 20%;
+    line-height: 1.6;
+}
+.store-p a{
+    background-color: var(--color-coffee);
+    padding: 5px;
+}
+.stores p{
+    margin-bottom: 10px;
+}
+.stores a{
+    text-decoration: none;
+    color: var(--color-cream-lt);
+    border-bottom: 1px solid var(--color-cream);
+    cursor: alias;
+    margin-bottom: 20px;
+}

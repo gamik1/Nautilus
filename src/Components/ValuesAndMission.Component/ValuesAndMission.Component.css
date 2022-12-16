@@ -1,0 +1,9 @@
+/* css for values and mission text */
+.generic-text {
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 70px;
+}
+.generic-text p {
+    padding: 0 100px;
+}

@@ -1,0 +1,64 @@
+@media only screen and (max-width: 644px){
+    
+}
+@media only screen and (min-width: 645px){
+    .contact {
+        width: 70%
+    }
+}
+@media only screen and (min-width: 951px){
+    .contact {
+        width: 500px;
+    }
+}
+
+
+
+.section-contact {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.contact{
+    margin: 30px auto;
+}
+fieldset {
+    border: none;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+.contact input[type="text"],
+.contact input[type="email"],
+.contact input[type="tel"],
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 0 0 5px;
+    border-radius: 10px;
+    border: 2px solid var(--color-cream);
+}
+textarea {
+    font-family: 'Raleway', sans-serif;
+}
+.contact textarea {
+    height: 200px;
+    max-width: 100%;
+    resize: none;
+}
+.contact button[type="submit"] {
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    margin: 0 0 5px;
+    padding: 20px;
+    background: var(--color-brown-lt);
+    color: var(--color-cream-lt);
+    font-size: 16px;
+    transition: all .2s ease-out;
+}
+.contact button[type="submit"]:hover {
+    background-color: var(--color-hotchocolate);
+}

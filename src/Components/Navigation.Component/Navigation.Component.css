@@ -1,0 +1,38 @@
+/* css for logo */
+.logo {
+    font-size: 32px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--color-cream-lt);
+}
+.logo:hover {
+    color: var(--color-cream-lt);
+    border-bottom: 2px solid var(--color-cream);
+    border-radius: 5%;
+}
+
+/* css for nav bar */
+.navbar {
+    background-color: var(--color-coffee);
+    color: var(--color-coffee);
+}
+
+.navbar .link {
+    text-decoration: none;
+    color: var(--color-cream);
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 18px;
+    font-weight: 500;
+    transition: 0.2s ease-out;
+    padding-bottom: 3px;
+    margin-left: 20px;
+}
+.navbar .link:hover {
+    border-bottom: 2px solid var(--color-cream);
+    border-radius: 5%;
+}
+
+.navbar-toggler{
+    background-color: var(--color-cream);
+}

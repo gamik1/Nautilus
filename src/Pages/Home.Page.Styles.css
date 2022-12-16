@@ -1,0 +1,20 @@
+/* Image Break Div */
+
+.bg-img {
+    width: 100vw;
+    height: 50vh;
+    background-image: linear-gradient(#2218061a, #3122061e), url('../../public/img/img4.png');
+    background-size: cover;
+    background-position: left 15% bottom 60%;
+    background-repeat: no-repeat;
+  }
+
+  
+  .resp-img{
+    width: 100vw;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .resp-img img{
+    transform: translate(0%, -25%);
+  }
